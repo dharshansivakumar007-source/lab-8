@@ -1,0 +1,123 @@
+
+/* Body Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf2f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container */
+
+.container {
+    width: 450px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+/* Heading */
+
+h2 {
+    text-align: center;
+    color: #2874a6;
+}
+
+/* Labels */
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+/* Input Fields */
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Input Focus */
+
+input:focus, select:focus {
+    border-color: #2874a6;
+    outline: none;
+}
+
+/* Buttons */
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #2874a6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button Hover */
+
+button:hover {
+    background-color: #154360;
+}
+
+/* Display Section */
+
+#display {
+    display: none;
+    margin-top: 30px;
+}
+
+/* Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #aaa;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2874a6;
+    color: white;
+    width: 40%;
+}
+
+td {
+    background-color: #f8f9f9;
+}
+
+/* Back Button */
+
+#backBtn {
+    background-color: #239b56;
+}
+
+#backBtn:hover {
+    background-color: #196f3d;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 90%;
+        box-sizing: border-box;
+    }
+}
